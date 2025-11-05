@@ -23,7 +23,7 @@ const getFormById = (id) => {
 const deleteFormById = (id) => {
   const formIndex = formsData.find((f) => f.id === id);
 
-  if (index === -1) {
+  if (formIndex === -1) {
     return null;
   }
 

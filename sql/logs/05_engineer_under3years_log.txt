@@ -1,0 +1,6 @@
+ id |  name  | position | join_date  | release_date | year_of_experience | salary 
+----+--------+----------+------------+--------------+--------------------+--------
+  4 | Aaron  | Engineer | 2021-08-16 | 2022-08-16   |                1.0 |  85.00
+  7 | Albert | Engineer | 2024-01-24 |              |                2.5 |  85.00
+(2 rows)
+

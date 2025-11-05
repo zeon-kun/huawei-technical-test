@@ -1,0 +1,9 @@
+# Crontab configuration for data collection and cleaning
+
+# Data collection at 8:00, 12:00, and 15:00 WIB (WIB is UTC+7)
+0 8 * * * /bin/sh /home/zeonk/codes/interviewKerja/huawei/automation/data-collector.sh
+0 12 * * * /bin/sh /home/zeonk/codes/interviewKerja/huawei/automation/data-collector.sh
+0 15 * * * /bin/sh /home/zeonk/codes/interviewKerja/huawei/automation/data-collector.sh
+
+# Data cleaning once a day at midnight
+0 0 * * * /bin/sh /home/zeonk/codes/interviewKerja/huawei/automation/data-cleaner.sh

@@ -1,0 +1,5 @@
+
+# SQL (PostgreSQL)
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=company_db

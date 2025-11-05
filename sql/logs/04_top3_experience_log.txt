@@ -1,0 +1,7 @@
+ name  |      position      | year_of_experience | salary 
+-------+--------------------+--------------------+--------
+ Alano | Manager            |               14.0 | 175.00
+ John  | Assistant Manager  |               12.0 | 155.00
+ Jacky | Solution Architect |                8.0 | 150.00
+(3 rows)
+
